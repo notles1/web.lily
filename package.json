@@ -2,7 +2,7 @@
   "name": "lily-showcase",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://notles1.github.io/lily-showcase",
+  "homepage": "https://notles1.github.io/web.lily",
   "type": "module",
   "scripts": {
     "dev": "vite",
