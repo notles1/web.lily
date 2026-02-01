@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --font-montserrat: 'Montserrat', sans-serif;
+
+  --color-background: #000000;
+  --color-surface: rgba(30, 41, 59, 0.7);
+  --color-primary: #D4FF00;
+  --color-primary-dark: #B8E000;
+  --color-primary-light: #E0FF4D;
+  --color-secondary: #00D4FF;
+  --color-tertiary: #E0BBE4;
+  --color-text-primary: #FFFFFF;
+  --color-text-secondary: #94A3B8;
+  --color-splash-bg: #f8f8f7;
+
+  --radius-xs: 4px;
+  --radius-s: 8px;
+  --radius-m: 16px;
+  --radius-l: 24px;
+  --radius-xl: 32px;
+  --radius-3xl: 3rem;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-text-primary font-montserrat antialiased overflow-x-hidden;
+  }
+}
