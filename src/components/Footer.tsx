@@ -9,7 +9,7 @@ export const Footer = () => {
         <footer className="py-12 border-t border-white/5 relative z-10 bg-black/50 backdrop-blur-xl">
             <div className="max-w-7xl mx-auto px-6 text-center">
                 <div className="flex justify-center items-center gap-2 mb-8 text-primary">
-                    <ThemeIcon size={32} />
+                    <img src="images/app-icon.png" alt="Lily Logo" className="w-8 h-8 object-contain" />
                 </div>
                 <p className="text-text-secondary mb-4">
                     "Simplicity is the ultimate sophistication."
