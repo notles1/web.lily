@@ -2,8 +2,7 @@ import { useTheme } from '../context/ThemeContext';
 import { Calendar } from 'lucide-react';
 
 export const Footer = () => {
-    const { currentThemeConfig } = useTheme();
-    const ThemeIcon = currentThemeConfig.icon;
+    // const { currentThemeConfig } = useTheme();
 
     return (
         <footer className="py-12 border-t border-white/5 relative z-10 bg-black/50 backdrop-blur-xl">
